@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset: "utf-8">
+	<title> Proyecto 02 </title>
+</head>
+
+<body>
+
+	<header> 
+		<nav>
+			<img src="http://www.placehold.it/100x20">
+			<ul>
+				<li>
+					<a href="main.html">Main</a>
+				</li>
+				<li>
+					<a href="demos.html">Demos</a>
+				</li>
+				<li>
+					<a href="portfolio.html">Portfolio</a>
+				</li>
+				<li>
+					<a href="blog.html">Blog</a>
+				</li>
+				<li>
+					<a href="shortcodes.html">Shortcodes</a>
+				</li>
+			</ul>
+		</nav>
+
+		<h1>Huge ultimate website builder kit</h1>
+
+	</header>
+
+	<section>
+		<article>
+			<img src="imagenes/cellphone.png">
+			<h2>Hello! We're a Creative Agency</h2>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p> 
+			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			<a href="purchase.html">Purchase</a>
+		</article>
+	</section>
+
+	<section>
+		<article>
+			<img src="http://www.placehold.it/30x30">
+			<h4>Multi Porpuse</h4>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. </p>
+		</article>
+		<article>
+			<img src="http://www.placehold.it/30x30">
+			<h4>Retina Ready</h4>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. </p>
+		</article>
+		<article>
+			<img src="http://www.placehold.it/30x30">
+			<h4>Modern Design</h4>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. </p>
+		</article>
+		<article>
+			<img src="http://www.placehold.it/30x30">
+			<h4>Dally Updates</h4>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. </p>
+		</article>
+	</section>
+
+<!-- No pertenece al diseño pero vamos a aprender tablas -->
+
+	<section>
+		<h2> Aprendiendo tablas </h2>
+		<table>
+			<tr> 
+				<th>Nombres</th>
+				<th>Nota 1</th>
+				<th>Nota 2</th>
+				<th>Nota 3</th>
+			</tr>
+			<tr>
+				<td>Laura</td>
+				<td>9</td>
+				<td>8</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<td>Daniel</td>
+				<td>5</td>
+				<td>6</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>Javier</td>
+				<td>5</td>
+				<td>9</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>Paula</td>
+				<td>7</td>
+				<td>6</td>
+				<td>4</td>
+			</tr>
+			
+		</table>
+	</section>
+
+	<section>
+		<h2> Aprendiendo formularios </h2>
+
+		<form method:"post" action="enviar.php" enctype="multipart/form-data">
+
+			<label for="Nombre">Nombre:</label>
+			<input type="Text" name="Nombre" placeholder="Completa con tu nombre" requiered>
+
+			<br>
+
+			<label for="Correo">E-Mail:</label>
+			<input type="email" name="Correo" placeholder="Ingresar correo electrónico" required>
+
+			<br>
+
+			<label for="Password">Contraseña:</label>
+			<input type="password" name="Password" placeholder="Ingresar contraseña" required>
+
+			<br>
+
+			<label for="Provincia">Provincia:</label>
+			<select name:"Provincia">
+				<option value="BS">Buenos Aires</option> 
+				<option value="NQ">Neuquen</option>
+				<option value="MZ">Mendoza</option>
+				<option value="SA">Salta</option>
+				<option value="JU">Jujuy</option>
+			</select>
+
+			<br>
+
+			<label for="envio">Metodo de envio:</label>
+			<input type="radio" name="envio" value="delivery"> Delivery
+			<input type="radio" name="envio" value="retira por local"> Retira por local
+
+			<br>
+
+			<label for="aceptartc"> Acepte los terminos y condiciones </label>
+			<input type="checkbox" name="aceptartc" value="aceptar">Aceptar
+
+			<br>
+
+			<label for="Factura">Adjunte la factura</label>
+			<input type="file" name="Factura">
+
+			<br>
+
+			<input type="submit" value="Enviar formulario">
+
+		</form>
+
+	</section>
+
+	<section>
+		<h2> Aca insertare un video local </h2>
+
+		<video src="videos/343378693.mp4" controls>Tu navegador no implementa el elemento 
+		<code>video</code> </video>
+
+	</section>
+
+	<section>
+		<h2> Aca insertare un video de youtube </h2>
+
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/en2D_5TzXCA" frameborder="0" allowfullscreen></iframe>
+
+	</section>
+
+</body>
+</html>
